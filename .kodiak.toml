@@ -1,0 +1,8 @@
+version = 1
+
+[merge]
+automerge_label = "automerge"
+blocking_labels = ["do not merge"]
+
+[merge.message]
+include_coauthors = true
