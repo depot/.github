@@ -27,7 +27,3 @@ Depot provides cloud-hosted container builder machines - our builders are quick,
 
 - **For your local machine:** builds won't slow down your laptop, use up your machine memory, or clog your network connection. By running the build in the cloud, it will have access to a fast low-latency network connection to download base images and build dependencies. And you won't need to pull gigabytes of unnecessary files into your local disk for cache.
 - **For CI:** we fully manage a persistent cache for each project builder, so no more waiting minutes for the GitHub `actions/cache` to load and save tarballs for each build. Builds also have access to more resources than GitHub Actions, with 4 CPUs to speed up and parallelize `RUN` steps, and 50GB of total cache per project instead of 10GB.
-
-## Private Beta
-
-We're currently in private beta, but if you're interested in early access, please email [contact@depot.dev](mailto:contact@depot.dev) and mention that you found us on GitHub.
